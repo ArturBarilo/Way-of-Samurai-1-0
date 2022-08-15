@@ -1,17 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
+import Header from './Header.js'
+import Technologies from './Technologies.js'
+
 
 const App = () => {
   return (
     <div>
-      <div>Another DIV</div>
-    <div className="App">   
-      <ul>
-        <li>sdfgsdg</li>
-        <li>sdfgs</li>
-        <li>sdfdf</li>
-      </ul>
-    </div>
+    <Header />
+    <Technologies />
     </div>
   );
 }
