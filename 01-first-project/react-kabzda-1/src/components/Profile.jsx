@@ -1,5 +1,7 @@
+import s from './Profile.module.css'
+
 const Profile = () => {
-    return <div className='content'>
+    return <div className={s.content}>
         <div>
             <img src='https://media-exp1.licdn.com/dms/image/C4D1BAQGDmALg_8s-Yg/company-background_10000/0/1519799119530?e=2147483647&v=beta&t=MpzHeo7wdMoePy-CjWNPwwMbgDU3ydtdqIXGYFtSisg' />
         </div>
@@ -12,10 +14,10 @@ const Profile = () => {
                 New post
             </div>
             <div>
-                <div>
+                <div className={s.item}>
                     post 1
                 </div>
-                <div>
+                <div className={s.item}>
                     post 2
                 </div>
             </div>
