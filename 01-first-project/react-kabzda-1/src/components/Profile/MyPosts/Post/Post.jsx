@@ -1,10 +1,11 @@
 import s from './Post.module.css'
 
-const Post = () => {
+const Post = (props) => {
+
     return (
         <div className={s.item}>
             <img src='https://img01.rl0.ru/afisha/e1200x600i/daily.afisha.ru/uploads/images/2/f2/2f23c421db983f28be0a4d9e84fe1d3d.png' />
-            post 1
+            { props.message }
             <div>
                 <span>like</span>
             </div>
